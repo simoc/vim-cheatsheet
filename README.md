@@ -13,5 +13,9 @@ to next split window
 ## Global Actions
 
 `:g/foo/d` deletes all lines that contain `foo`
+
 `:g!/foo/d` deletes all lines that do not contain `foo`
 
+## Microsoft Windows Clipboard
+
+`"+yy`, `"+p` to copy and paste a line to and from the Windows clipboard
